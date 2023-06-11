@@ -4,15 +4,15 @@ import welcomeImage from "../../assets/images/shutterstock_324436823.jpg";
 const Container = styled("div")`
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 100vh;
 `;
 
 const BackgroundImage = styled("div")`
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
   background-image: url(${welcomeImage});
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ const BackgroundOverlay = styled("div")`
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.8);
 `;
 
 const TextContainer = styled("div")`
@@ -55,11 +55,37 @@ const StyledHeading = styled("p")`
   text-align: center;
 `;
 
+const BottomContainer = styled("div")`
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2px;
+  width: 100%;
+`;
+
+const BottomText = styled("p")`
+  margin: 0px !important;
+  font-weight: 600;
+  font-size: 15px;
+`;
+
+const BottomImage = styled("img")`
+  margin: 0px !important;
+  width: 60px;
+  height: 40px;
+`;
+
 export {
   Container,
   BackgroundImage,
   TextContainer,
   BackgroundOverlay,
   StyledText,
-  StyledHeading
+  StyledHeading,
+  BottomContainer,
+  BottomText,
+  BottomImage
 };
