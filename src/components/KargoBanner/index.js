@@ -16,7 +16,7 @@ function KargoBanner() {
         <StyledHeading>
           At Kargo, we beleive there are no limits to the possibilities of media
         </StyledHeading>
-        <StyledText>Showtimes 6/19, 6/20, 6/21 at 10PM & 11.30PM</StyledText>
+        <StyledText>We know that exploring what's next never ends. Launching first in mobile in 2003, we expanded to digital, and now, with our recent move into connected tv, Kargo is on every screen, everywhere. But this is truly just the beginning of our exciting journey. The activation you are experiencing in the sky tonight is the Launching point for Kargo's groundbreaking series of new media experiments pushing the boundaries of what's possible. </StyledText>
       </TextContainer>
     </Container>
   );

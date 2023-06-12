@@ -29,11 +29,11 @@ const TextContainer = styled("div")`
 `;
 
 const StyledText = styled("p")`
-  margin: 0px !important;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px 50px;
   text-align: center;
   font-weight: 500;
+  margin-top:15px
 `;
 
 const StyledHeading = styled("h2")`
