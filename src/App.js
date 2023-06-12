@@ -9,6 +9,7 @@ import KargoBanner from "./components/KargoBanner";
 import PushingBanner from "./components/PushingBanner";
 import StarsVedioBanner from "./components/StarVideoBanner";
 import PartnersBanner from "./components/PartnersBanner";
+import KargoSec from "./components/KargoSec";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <WelcomeBanner />
       <KargoBanner />
       <PushingBanner />
+      <KargoSec/>
       <PartnersBanner />
       <StarsVedioBanner />
     </ParallaxProvider>
