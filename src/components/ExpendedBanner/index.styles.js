@@ -47,8 +47,7 @@ height:390px;
 `;
 
 const StyledImage = styled("img")`
-  height: 100%;
-  object-fit:cover;
+  height: 90vw;
 `;
 
 export {

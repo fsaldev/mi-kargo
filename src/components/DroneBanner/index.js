@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import droneVideo from "../../assets/videos/DRONE.mp4";
+import logo from "../../assets/images/Kargo_logo.png";
 
-import { TextContainer, Video, VideoContainer } from "./index.styles";
+import { TextContainer, Video, VideoContainer, ImagesContainer, StyledImage } from "./index.styles";
 
 function DroneBanner() {
   const [showText, setShowText] = useState(false);
@@ -23,6 +24,9 @@ function DroneBanner() {
 
   return (
     <VideoContainer>
+      <ImagesContainer>
+          <StyledImage src={logo} alt="laptop-img" />
+        </ImagesContainer>
       <Video ref={videoRef} src={droneVideo} autoPlay muted loop />
       {/* {showText && ( */}
       <TextContainer>

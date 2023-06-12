@@ -46,7 +46,7 @@ const ImagesContainer = styled("div")`
 `;
 
 const StyledImage = styled("img")`
-width:100vw;
+width:90vw;
 `;
 
 export {

@@ -15,6 +15,23 @@ const Video = styled("video")`
   opacity: 1;
 `;
 
+const ImagesContainer = styled("div")`
+position:absolute;
+top:20%;
+right:50%;
+  width: 30px;
+  height:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+`;
+
+const StyledImage = styled("img")`
+
+`;
+
 const TextContainer = styled("div")`
   position: absolute;
   top: 0px;
@@ -30,4 +47,4 @@ const TextContainer = styled("div")`
   align-items: center;
 `;
 
-export { Video, VideoContainer, TextContainer };
+export { Video, VideoContainer, TextContainer, ImagesContainer, StyledImage };
