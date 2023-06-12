@@ -4,7 +4,7 @@ const Container = styled("div")`
   position: relative;
   width: 100%;
   background-color: #f5f5f7;
-  height: 100vh;
+  height: 100lvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +12,8 @@ const Container = styled("div")`
 `;
 
 const StyledHeading = styled("h3")`
-  margin: 0px !important;
-  font-size: 24px;
-  padding: 0px 50px;
+    // margin: 0px !important;
+  font-size: 35px;
   text-align: center;
 `;
 
@@ -34,21 +33,28 @@ const StyledText = styled("p")`
   text-align: center;
   font-weight: 500;
   color: #86868b;
+  @media (max-width: 375px) {
+    font-size: 13px;
+  }
+
 `;
 
 const ImagesContainer = styled("div")`
-  margin-top: 20px;
+  // margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   row-gap: 20px;
+  padding: 40px 0px 60px 0px;
+  @media (max-width: 375px) {
+    padding: 17px 0px 23px 0px;
+  }
 `;
 
 const StyledImage = styled("img")`
-  width: 120px;
-  height: 80px;
+  height: 70px;
 `;
 
 const BottomContainer = styled("div")`
@@ -66,8 +72,11 @@ const BottomText = styled("p")`
   font-weight: 600;
   font-size: 15px;
   color: #86868b;
-  padding: 150px 40px;
+  padding: 0px 40px;
   text-align: center;
+  @media (max-width: 375px) {
+    font-size: 13px;
+  }
 `;
 
 const BottomImage = styled("img")`

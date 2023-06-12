@@ -4,12 +4,12 @@ import welcomeImage from "../../assets/images/shutterstock_324436823.jpg";
 const Container = styled("div")`
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
 `;
 
 const BackgroundImage = styled("div")`
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
   object-fit: cover;
   filter: blur(5px);
   -webkit-filter: blur(5px);
@@ -24,7 +24,7 @@ const BackgroundOverlay = styled("div")`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
   background-color: rgba(255, 255, 255, 0.8);
 `;
 
@@ -33,7 +33,7 @@ const TextContainer = styled("div")`
   top: 0px;
   width: 100%;
   font-weight: bold;
-  height: 100vh;
+  height: 100lvh;
   display: flex;
   justify-content: center;
   align-items: center;

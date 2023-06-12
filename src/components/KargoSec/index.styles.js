@@ -4,7 +4,7 @@ const Container = styled("div")`
   position: relative;
   width: 100%;
   background-color: black;
-  height: 100vh;
+  height: 100lvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@ const ImagesContainer = styled("div")`
 `;
 
 const StyledImage = styled("img")`
-  width: 100vh;
+  width: 100lvh;
   margin: 30px 0px;
   @media (max-width: 850px) {
     width: 100%;

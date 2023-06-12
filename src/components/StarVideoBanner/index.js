@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import starsVideo from "../../assets/videos/stars.mp4";
+import starsVideo from "../../assets/videos/star.mp4";
 
 import { VideoContainer, Video, TextContainer, StyledText, StyledHeading} from "./index.styles";
 

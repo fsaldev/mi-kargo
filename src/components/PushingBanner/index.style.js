@@ -4,7 +4,7 @@ import welcomeImage from "../../assets/images/shutterstock_600612044.jpg";
 const Container = styled("div")`
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
 `;
 
 const BackgroundImage = styled("div")`
@@ -27,7 +27,7 @@ const TextContainer = styled("div")`
 `;
 
 const StyledText = styled("p")`
-  font-size: 20px;
+  font-size: 19px;
   padding: 0px 50px;
   text-align: center;
   font-weight: 500;

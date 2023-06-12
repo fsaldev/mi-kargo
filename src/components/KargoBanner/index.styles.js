@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 const Container = styled("div")`
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 100lvh;
 `;
 
 const BackgroundOverlay = styled("div")`
@@ -11,7 +11,7 @@ const BackgroundOverlay = styled("div")`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
   background-color: #D0D4DA;
   opacity: 0.6;
 `;
@@ -20,7 +20,7 @@ const TextContainer = styled("div")`
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
   font-weight: bold;
   display: flex;
   justify-content: center;

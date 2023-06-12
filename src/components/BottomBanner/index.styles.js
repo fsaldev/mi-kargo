@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 const Container = styled("div")`
   width: 100%;
-  height:100vh;
+  height:95dvh;
   display: flex;
   overflow-x:scroll;
 `;
