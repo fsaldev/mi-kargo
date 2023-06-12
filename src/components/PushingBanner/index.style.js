@@ -27,7 +27,7 @@ const TextContainer = styled("div")`
 `;
 
 const StyledText = styled("p")`
-  font-size: 21px;
+  font-size: 20px;
   padding: 0px 50px;
   text-align: center;
   font-weight: 500;
@@ -38,6 +38,7 @@ const StyledText = styled("p")`
 const StyledHeading = styled("p")`
   margin: 0px !important;
   font-size: 30px;
+  font-weight:600;
   padding: 0px 50px;
   text-align: center;
 `;
