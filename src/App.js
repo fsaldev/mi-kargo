@@ -6,6 +6,7 @@ import StarsBanner from "./components/StarsBanner";
 import NeverEnds from "./components/NeverEndsBanner";
 import WelcomeBanner from "./components/WelcomeBanner";
 import KargoBanner from "./components/KargoBanner";
+import PartnersBanner from "./components/PartnersBanner";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NeverEnds />
       <WelcomeBanner />
       <KargoBanner />
+      <PartnersBanner />
     </ParallaxProvider>
   );
 }
