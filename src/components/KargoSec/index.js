@@ -1,6 +1,6 @@
 import React from "react";
 
-import DroneBg from "../../assets/images/joshua-fuller-u1EGfuB4llU-unsplash.jpg";
+import Drone from "../../assets/images/drone.jpg";
 
 import {
   Container,
@@ -25,7 +25,7 @@ function KargoSec() {
           </StyledHeading>
         </TextContainer>
         <ImagesContainer>
-          <StyledImage src={DroneBg} alt="drone-stories" />
+          <StyledImage src={Drone} alt="drone-stories" />
         </ImagesContainer>
         <BottomText>
           By demonstrating a future of drone based 3D billboard screens that
@@ -34,14 +34,6 @@ function KargoSec() {
           celebration of creativity and innovation.
         </BottomText>
       </Container>
-      {/* <BottomContainer>
-        <BottomText>
-          We want to extend special thanks to our partners at LG Ads who share
-          our vision of reimagining the biggest screen in our living room as an
-          attention getting 4000(verify) square foot screen in the sky. In
-          addition, we want to thank Influential for hosting our viewing party.
-        </BottomText>
-      </BottomContainer> */}
     </>
   );
 }

@@ -40,7 +40,6 @@ const StyledText = styled("p")`
 `;
 
 const ImagesContainer = styled("div")`
-  // margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -50,8 +49,13 @@ const ImagesContainer = styled("div")`
 `;
 
 const StyledImage = styled("img")`
-  width: 500px;
-  height: 500px;
+  width: 100vh;
+  margin: 30px 0px;
+  @media (max-width: 850px) {
+    width: 100%;
+    margin: 90px 0px;
+  }
+  // height: 500px;
 `;
 
 const BottomContainer = styled("div")`
