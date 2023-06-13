@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import laptop from "../../assets/images/AD_STACK_Campbells_4.20_AA.png";
 import phone from "../../assets/images/phone.png";
 import phones from "../../assets/images/mobiles.png";
-import { Icon } from "@iconify/react";
 
 import { Container } from "./index.styles";
 import SwipContainer from "./swipContainer";
