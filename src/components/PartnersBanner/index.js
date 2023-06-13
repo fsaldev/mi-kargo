@@ -1,6 +1,6 @@
 import React from "react";
 
-import droneStoriesIcon from "../../assets/images/1631702984986.png";
+import droneStoriesIcon from "../../assets/images/16317029849861.png";
 import novaStoriesIcon from "../../assets/images/NovaSkyStories.png";
 import tapeAgencyIcon from "../../assets/images/tap.png";
 

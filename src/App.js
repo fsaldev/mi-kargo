@@ -20,8 +20,8 @@ function App() {
       <StarsBanner />
       <NeverEnds />
       <WelcomeBanner />
-      <PushingBanner />
       <KargoBanner />
+      <PushingBanner />
       <KargoSec/>
       <PartnersBanner />
       <StarsVedioBanner />

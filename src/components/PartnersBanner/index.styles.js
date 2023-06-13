@@ -13,8 +13,9 @@ const Container = styled("div")`
 
 const StyledHeading = styled("h3")`
     // margin: 0px !important;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
+  padding: 0px 87px;
 `;
 
 const TextContainer = styled("div")`
@@ -28,33 +29,30 @@ const TextContainer = styled("div")`
 
 const StyledText = styled("p")`
   margin: 0px !important;
-  font-size: 15px;
+  font-size: 12px;
   padding: 0px 50px;
   text-align: center;
   font-weight: 500;
   color: #86868b;
-  @media (max-width: 375px) {
-    font-size: 13px;
-  }
+  // @media (max-width: 375px) {
+  //   font-size: 13px;
+  // }
 
 `;
 
 const ImagesContainer = styled("div")`
-  // margin-top: 20px;
   width: 100%;
+  height:30%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   row-gap: 20px;
-  padding: 40px 0px 60px 0px;
-  @media (max-width: 375px) {
-    padding: 17px 0px 23px 0px;
-  }
+  padding: 60px 0px 60px 0px;
 `;
 
 const StyledImage = styled("img")`
-  height: 70px;
+  height: 30%;
 `;
 
 const BottomContainer = styled("div")`
@@ -64,25 +62,16 @@ const BottomContainer = styled("div")`
   flex-direction: column;
   width: 100%;
   background-color: #f5f5f7;
-  height: 40vh;
+  padding: 1em 0em; 
 `;
 
 const BottomText = styled("p")`
   margin: 0px !important;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 12px;
   color: #86868b;
   padding: 0px 40px;
   text-align: center;
-  @media (max-width: 375px) {
-    font-size: 13px;
-  }
-`;
-
-const BottomImage = styled("img")`
-  margin: 0px !important;
-  width: 60px;
-  height: 40px;
 `;
 
 export {
@@ -93,6 +82,5 @@ export {
   ImagesContainer,
   BottomContainer,
   BottomText,
-  BottomImage,
   StyledImage,
 };
