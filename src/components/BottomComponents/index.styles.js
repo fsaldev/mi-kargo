@@ -1,13 +1,16 @@
 import styled from "@emotion/styled";
 
 const Container = styled("div")`
-  width: 100%;
+  position: relative;
+  width: 100vw;
   background-color: #FFFFFF;
   height: 100lvh;
   display: flex;
   align-items: center;
   justify-content:center;
   flex-direction: column;
+  opacity:1;
+  transition:opacity 1s ease-out-in;
 `;
 
 const StyledHeading = styled("h3")`
@@ -27,7 +30,6 @@ const TextContainer = styled("div")`
 
 const StyledText = styled("p")`
   margin: 0px !important;
-  height:81px;
   font-size: 20px;
   padding: 0px 50px;
   text-align: center;
@@ -38,7 +40,7 @@ const StyledText = styled("p")`
 const ImagesContainer = styled("div")`
   margin-top: 20px;
   width: 100%;
-height:390px;
+  height:40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,8 +49,7 @@ height:390px;
 `;
 
 const StyledImage = styled("img")`
-width:90vw;
-object-fit:cover;
+  height: 100%;
 `;
 
 export {

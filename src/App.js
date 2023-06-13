@@ -11,7 +11,7 @@ import KargoSec from "./components/KargoSec";
 import StarsVedioBanner from "./components/StarVideoBanner";
 import PartnersBanner from "./components/PartnersBanner";
 import EvaluationBanner from "./components/EvaluationBanner";
-import BottomBanners from "./components/BottomBanner";
+import BottomComponents from "./components/BottomComponents";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       <PartnersBanner />
       <StarsVedioBanner />
       <EvaluationBanner />
-      <BottomBanners />
+      <BottomComponents />
     </ParallaxProvider>
   );
 }
