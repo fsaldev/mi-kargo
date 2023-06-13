@@ -47,7 +47,7 @@ margin: 0px !important;
 padding: 4px 46px;
 text-align: center;
 line-height:38px;
-color:#1D1D1F;
+color:#000000;
 z-index:99
 `;
 
