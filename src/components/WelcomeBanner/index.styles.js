@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import welcomeImage from "../../assets/images/shutterstock_324436823.jpg";
+import welcomeImage from "../../assets/images/shutterstock_324436823.png";
 
 const Container = styled("div")`
   position: relative;
@@ -25,7 +25,7 @@ const BackgroundOverlay = styled("div")`
   left: 0;
   width: 100%;
   height: 100lvh;
-  background-color: rgba(255, 255, 255, 0.8);
+  // background-color: rgba(255, 255, 255, 0.8);
 `;
 
 const TextContainer = styled("div")`
@@ -42,17 +42,25 @@ const TextContainer = styled("div")`
 
 const StyledText = styled("p")`
   margin: 0px !important;
-  font-size: 15px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
   padding: 0px 50px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
+  color: #86868b;
+  line-height: 24px;
+  margin-top: 15px;
+  color:#1D1D1F;
 `;
 
 const StyledHeading = styled("p")`
   margin: 0px !important;
-  font-size: 24px;
-  padding: 0px 50px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0px 51px;
   text-align: center;
+  line-height: 38px;
 `;
 
 const BottomContainer = styled("div")`
@@ -87,5 +95,5 @@ export {
   StyledHeading,
   BottomContainer,
   BottomText,
-  BottomImage
+  BottomImage,
 };

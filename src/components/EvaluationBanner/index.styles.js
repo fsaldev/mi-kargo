@@ -13,8 +13,12 @@ const Container = styled("div")`
 
 const StyledHeading = styled("h3")`
   font-size: 30px;
-  padding: 0px 50px;
+  padding: 0px 87px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin: 0px !important;
   text-align: center;
+  line-height:38px;
 `;
 
 const TextContainer = styled("div")`
@@ -28,11 +32,15 @@ const TextContainer = styled("div")`
 
 const StyledText = styled("p")`
   margin: 0px !important;
-  font-size: 20px;
+  color: #86868b;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   padding: 0px 50px;
   text-align: center;
   font-weight: 500;
-  color: #86868b;
+  margin-top: 15px !important;
+  line-height:24px;
 `;
 
 export {

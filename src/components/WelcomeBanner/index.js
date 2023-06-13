@@ -20,8 +20,8 @@ function WelcomeBanner() {
       <BackgroundImage />
       <BackgroundOverlay />
       <TextContainer>
-        <StyledHeading>Welcome to the evoution of media</StyledHeading>
-        <StyledText>Showtimes 6/19, 6/20, 6/21 at 10PM & 11.30PM</StyledText>
+        <StyledHeading>Welcome to the evolution of media.</StyledHeading>
+        <StyledText>Showtimes 6/19, 6/20, 6/21 10PM & 11:30PM</StyledText>
       </TextContainer>
       <BottomContainer>
         <BottomText>Learn More</BottomText>

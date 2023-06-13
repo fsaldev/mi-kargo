@@ -16,20 +16,19 @@ const Video = styled("video")`
 `;
 
 const ImagesContainer = styled("div")`
-position:absolute;
-top:20%;
-right:50%;
-  width: 30px;
-  height:20px;
+  position:absolute;
+  top:20%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   flex-direction: column;
   row-gap: 20px;
 `;
 
 const StyledImage = styled("img")`
-
+display: flex;
+  justify-content: center;
+  align-items: center; 
 `;
 
 const TextContainer = styled("div")`

@@ -11,7 +11,7 @@ function EvaluationBanner() {
   return (
       <Container>
         <TextContainer>
-          <StyledHeading>The Evaluation of Kargo</StyledHeading>
+          <StyledHeading>The Evolution of Kargo</StyledHeading>
           <StyledText>
           Over the course of our first 20 years, we have held steadfast to the mainstays of our mission: creativity and innovation. 
           </StyledText>

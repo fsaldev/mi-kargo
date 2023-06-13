@@ -30,15 +30,17 @@ function DroneBanner() {
 
   return (
     <VideoContainer>
-      <ImagesContainer>
-        <StyledImage src={logo} alt="laptop-img" />
-      </ImagesContainer>
       <Video ref={videoRef} src={droneVideo} autoPlay muted />
-      {showText && (
+     
         <TextContainer>
+          <ImagesContainer>
+            <StyledImage src={logo} alt="laptop-img" />
+          </ImagesContainer>
+          {showText && (
           <p>The Sky is not the limit</p>
+          )}
         </TextContainer>
-      )}
+     
     </VideoContainer>
   );
 }

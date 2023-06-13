@@ -14,9 +14,9 @@ function KargoBanner() {
       <BackgroundOverlay />
       <TextContainer>
         <StyledHeading>
-          At Kargo, we beleive there are no limits to the possibilities of media
+        At Kargo, we believe there are no limits to the possibilities of media.
         </StyledHeading>
-        <StyledText>We know that exploring what's next never ends. Launching first in mobile in 2003, we expanded to digital, and now, with our recent move into connected tv, Kargo is on every screen, everywhere. But this is truly just the beginning of our exciting journey. The activation you are experiencing in the sky tonight is the Launching point for Kargo's groundbreaking series of new media experiments pushing the boundaries of what's possible. </StyledText>
+        <StyledText>We know that exploring what’s next never ends. Launching first in mobile in 2003, we expanded to digital, and now, with our recent move into connected tv, Kargo is on every screen, everywhere. But this is truly just the beginning of our exciting journey. The activation you are experiencing in the sky tonight is the launching point for Kargo’s groundbreaking series of new media experiments pushing the boundaries of what’s possible.</StyledText>
       </TextContainer>
     </Container>
   );

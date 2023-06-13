@@ -33,18 +33,23 @@ const TextContainer = styled("div")`
 const StyledText = styled("p")`
 //   margin: 0px !important;
   font-size: 17px;
+font-family: 'Poppins', sans-serif;
   padding: 0px 50px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   color:#86868B;
+  line-height:24px;
   margin-top:15px;
 `;
 
 const StyledHeading = styled("p")`
-  margin: 0px !important;
-  font-size: 33px;
-  padding: 0px 50px;
-  text-align: center;
+font-size: 30px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+margin: 0px !important;
+padding: 0px 51px;
+text-align: center;
+line-height:38px;
 `;
 
 export { Video, VideoContainer, TextContainer, StyledText, StyledHeading};
