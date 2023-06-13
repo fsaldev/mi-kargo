@@ -1,7 +1,5 @@
 import React from "react";
 
-import icon from "../../assets/images/icon_1684508_edited.png";
-
 import {
   Container,
   TextContainer,

@@ -5,9 +5,7 @@ import Drone from "../../assets/images/drone.jpg";
 import {
   Container,
   TextContainer,
-  StyledText,
   StyledHeading,
-  BottomContainer,
   BottomText,
   ImagesContainer,
   StyledImage,
