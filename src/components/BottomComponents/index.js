@@ -6,24 +6,14 @@ import { Icon } from "@iconify/react";
 
 import { Container } from "./index.styles";
 import SwipContainer from "./swipContainer";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
 
 function BottomComponents() {
-  const [currentComponentIndex, setCurrentComponentIndex] = useState(0);
-
-  const handleClick = () => {
-    setCurrentComponentIndex((prevIndex) => prevIndex + 1);
-    if (currentComponentIndex >= 2) {
-      setCurrentComponentIndex(0);
-    }
-  };
-
-  const handleClickBack = () => {
-    setCurrentComponentIndex((prevIndex) => prevIndex - 1);
-    if (currentComponentIndex <= 0) {
-      setCurrentComponentIndex(2);
-    }
-  };
-
   const bottomComponents = [
     {
       title: "2003",
@@ -44,44 +34,13 @@ function BottomComponents() {
   ];
   return (
     <Container>
-      <SwipContainer
-        title={bottomComponents[currentComponentIndex].title}
-        desp={bottomComponents[currentComponentIndex].desp}
-        img={bottomComponents[currentComponentIndex].img}
-      />
-      <div
-        style={{
-          position: "absolute",
-          right: 0,
-          top: "55%",
-        }}
-      >
-        <Icon
-          icon="fluent:ios-arrow-right-24-filled"
-          style={{
-            height: "30px",
-            width: "100px",
-          }}
-          onClick={handleClick}
-        />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          top: "55%",
-        }}
-      >
-        <Icon
-          icon="fluent:ios-arrow-right-24-filled"
-          hFlip={true}
-          style={{
-            height: "30px",
-            width: "100px",
-          }}
-          onClick={handleClickBack}
-        />
-      </div>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        {bottomComponents.map((item) => (
+          <SwiperSlide>
+            <SwipContainer title={item.title} desp={item.desp} img={item.img} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </Container>
   );
 }
