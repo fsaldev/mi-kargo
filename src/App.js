@@ -12,8 +12,12 @@ import StarsVedioBanner from "./components/StarVideoBanner";
 import PartnersBanner from "./components/PartnersBanner";
 import EvaluationBanner from "./components/EvaluationBanner";
 import BottomComponents from "./components/BottomComponents";
-
+import BottomStarsBanner from "./components/BottomStarBanner"
+import EvaluationBanner1 from "./components/EvaluationBanner1";
+import LogosBanner from "./components/LogosBanner";
 function App() {
+  const a = document.getElementById("make-animation");
+  console.log(a);
   return (
     <ParallaxProvider>
       <DroneBanner />
@@ -21,12 +25,15 @@ function App() {
       <NeverEnds />
       <WelcomeBanner />
       <KargoBanner />
-      <PushingBanner />
-      <KargoSec/>
-      <PartnersBanner />
+      <LogosBanner />
+      {/* <PushingBanner /> */}
+      {/* <KargoSec/> */}
+      {/* <PartnersBanner /> */}
       <StarsVedioBanner />
       <EvaluationBanner />
+      {/* <EvaluationBanner1 /> */}
       <BottomComponents />
+      <BottomStarsBanner />
     </ParallaxProvider>
   );
 }

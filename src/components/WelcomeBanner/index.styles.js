@@ -51,6 +51,12 @@ const StyledText = styled("p")`
   line-height: 24px;
   margin-top: 15px;
   color:#1D1D1F;
+  animation: fadeIn 4s;
+  // animation-delay:2s;
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 `;
 
 const StyledHeading = styled("p")`
@@ -61,11 +67,12 @@ const StyledHeading = styled("p")`
   padding: 0px 51px;
   text-align: center;
   line-height: 38px;
+  animation-duration: 2s; 
 `;
 
 const BottomContainer = styled("div")`
   position: absolute;
-  bottom: 5px;
+  bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,6 +91,16 @@ const BottomImage = styled("img")`
   margin: 0px !important;
   width: 60px;
   height: 40px;
+  text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+  @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
 `;
 
 export {

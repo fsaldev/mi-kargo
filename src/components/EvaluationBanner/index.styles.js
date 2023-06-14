@@ -9,6 +9,21 @@ const Container = styled("div")`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  -webkit-scrollbar{
+    display: none !important;
+  }
+`;
+
+const Container1 = styled("div")`
+  position: relative;
+  width: 100%;
+  background-color: #E2E6ED;
+  height: 100lvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top:50%;
 `;
 
 const StyledHeading = styled("h3")`
@@ -43,9 +58,26 @@ const StyledText = styled("p")`
   line-height:24px;
 `;
 
+const StyledText1 = styled("p")`
+  margin: 0px !important;
+  color: #86868b;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 0px 50px;
+  text-align: center;
+  font-weight: 500;
+  // margin-top: 15px !important;
+  line-height:24px;
+  margin-top:800px !important;
+  margin-bottom:310px !important;
+`;
+
 export {
   Container,
+  Container1,
   TextContainer,
   StyledText,
+  StyledText1,
   StyledHeading,
 };
