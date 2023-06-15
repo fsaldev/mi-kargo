@@ -12,6 +12,33 @@ const Container = styled("div")`
   -webkit-scrollbar{
     display: none !important;
   }
+ -webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+    position: absolute;
+    right: 1rem;
+  }
+ -webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid transparent;
+    border-radius: 10px;
+    padding-right: 50px;
+  }
+`;
+
+const Scroller = styled("div")`
+  height: 500px;
+  overflow:scroll;
+  -webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+    position: absolute;
+    right: 1rem;
+  }
+ -webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid transparent;
+  }
 `;
 
 const Container1 = styled("div")`
@@ -70,7 +97,7 @@ const StyledText1 = styled("p")`
   // margin-top: 15px !important;
   line-height:24px;
   margin-top:800px !important;
-  margin-bottom:310px !important;
+  margin-bottom:290px !important;
 `;
 
 export {
@@ -80,4 +107,5 @@ export {
   StyledText,
   StyledText1,
   StyledHeading,
+  Scroller,
 };

@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import welcomeImage from "../../assets/images/shutterstock_600612044.jpg";
+import droneImage from "../../assets/images/Drone-GIF.gif";
 
 const Container = styled("div")`
   position: relative;
@@ -11,7 +11,7 @@ const BackgroundImage = styled("div")`
   width: 100vw;
   height: 45%;
   object-fit: cover;
-  background-image: url(${welcomeImage});
+  background-image: url(${droneImage});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

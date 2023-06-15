@@ -39,7 +39,7 @@ function App() {
       <ScrollPage className="scrollPAge">
       <LogosBanner />
       </ScrollPage>
-      {/* <PushingBanner /> */}
+      <PushingBanner />
       {/* <KargoSec/> */}
       {/* <PartnersBanner /> */}
       <ScrollPage className="scrollPAge">

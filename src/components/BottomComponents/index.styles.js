@@ -3,14 +3,14 @@ import styled from "@emotion/styled";
 const Container = styled("div")`
   position: relative;
   width: 100vw;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 100lvh;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   flex-direction: column;
-  opacity:1;
-  transition:opacity 1s ease-out-in;
+  opacity: 1;
+  transition: opacity 1s ease-out-in;
 `;
 
 const StyledHeading = styled("h3")`
@@ -31,16 +31,22 @@ const TextContainer = styled("div")`
 const StyledText = styled("p")`
   margin: 0px !important;
   font-size: 20px;
-  padding: 0px 50px;
+  padding: 0px 29px;
   text-align: center;
   font-weight: 500;
   color: #86868b;
+  @media (max-width: 375px) {
+    padding: 0px 21px;
+  }
+  @media (max-width: 360px) {
+    padding: 0px 14px;
+  }
 `;
 
 const ImagesContainer = styled("div")`
   margin-top: 20px;
   width: 100%;
-  height:40%;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
