@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import droneVideo from "../../assets/videos/DRONE.mp4";
+import droneVideo from "../../assets/videos/DRONE.webm";
 import logo from "../../assets/images/Kargo_logo.png";
 
 import {
