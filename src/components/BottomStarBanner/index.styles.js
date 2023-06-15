@@ -23,9 +23,9 @@ const TextContainer = styled("div")`
   line-height:24px;
   font-family:Poppins !important;
   color: white;
-  opacity: 10;
-  transition: opacity 0.3s, transform 0.3s;
-  height: 100lvh;
+  // opacity: 10;
+  // transition: opacity 0.3s, transform 0.3s;
+  // height: 100lvh;
   display: flex;
   justify-content: center;
   align-items: center;

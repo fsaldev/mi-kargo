@@ -20,7 +20,7 @@ function LogosBanner() {
     
 //   const [currentImage, setCurrentImage] = useState(images[0]);
   const [check1, setCheck1] = useState(0);
-  console.log(check1);
+  // console.log(check1);
   const [check2, setCheck2] = useState(false);
   const [check3, setCheck3] = useState(false);
   const images = [dronelogo, novalogo, taplogo, solutionlogo];
@@ -108,7 +108,7 @@ function LogosBanner() {
     info.currStep = scroller.step + 1;
     info.currStepProgress = Math.floor(scroller.steps[scroller.step]?.progress * 100 ) + "%";
     info.currPos = Math.round(scroller.y);
-    console.log(info.currPos);
+    // console.log(info.currPos);
     // setCheck1( info.currPos);
     info.totalProgress = Math.floor(tl.progress() * 100 ) + "%";
     

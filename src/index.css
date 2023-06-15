@@ -40,3 +40,12 @@ code {
   font-size: 30px !important;
   color: black !important;
 }
+
+
+.scrollPAge{
+  height: 100lvh !important;
+}
+
+.scroll{
+  display: block !important;
+}
